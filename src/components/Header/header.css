@@ -1,10 +1,13 @@
 .header {
   background-color: white;
-  padding: 25px 40px;
+  padding: 25px 0;
+  box-shadow: var(--box-shadow);
+}
+
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: var(--box-shadow);
 }
 
 .header__title {
