@@ -3,7 +3,10 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Header from "../Header/Header";
+import Header from "../Header";
+import Home from "../../pages/Home";
+import About from "../../pages/About";
+import ProductDetails from "../../pages/ProductDetails";
 import "./app.css";
 
 const App = () => (
@@ -11,9 +14,9 @@ const App = () => (
     <main>
       <Header />
       <Routes>
-        <Route path="/" element={<h1>home</h1>} />
-        <Route path="petesita" element={<h1>hackico</h1>} />
-        <Route path="motito" element={<h1>nalita</h1>} />
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="product-details" element={<ProductDetails />} />
       </Routes>
     </main>
   </BrowserRouter>
