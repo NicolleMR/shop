@@ -10,23 +10,5 @@
   display: flex;
   grid-gap: 25px;
   flex-wrap: wrap;
-    justify-content: center;
-}
-
-.home__card {
-  width: 300px;
-  box-shadow: var(--box-shadow);
-}
-
-.home__card-img {
-  height: 400px;
-  object-fit: cover;
-}
-
-.home__card-info {
-  padding: 10px;
-}
-
-.home__card-title {
-  margin-bottom: 5px;
+  justify-content: center;
 }

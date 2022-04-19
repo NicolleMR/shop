@@ -64,6 +64,9 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
 .wrapper {
   padding: 0 10px;
   max-width: 1300px;
