@@ -16,7 +16,18 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="product-details" element={<ProductDetails />} />
+          <Route
+            path="product-details/:productId"
+            element={<ProductDetails />}
+          />
+          <Route
+            path="*"
+            element={
+              <div className="no-page">
+                <p>There's nothing here!</p>
+              </div>
+            }
+          />
         </Routes>
       </div>
     </main>

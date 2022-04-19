@@ -20,6 +20,6 @@
 
 .about__description {
   text-align: justify;
-  width: 580px;
+  max-width: 580px;
   margin: auto;
 }

@@ -67,12 +67,22 @@ a {
 p {
   margin: 0;
 }
+
 .wrapper {
-  padding: 0 10px;
-  max-width: 1300px;
+  padding: 0 40px;
+  max-width: 1400px;
   margin: 0 auto;
+}
+
+.no-page {
+  padding: 50px 0;
 }
 
 img {
   width: 100%;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
 }
