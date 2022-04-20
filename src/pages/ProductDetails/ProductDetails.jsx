@@ -22,11 +22,10 @@ const ProductDetails = () => (
         The Slow Sundays Hoodie in brown is a classic athletic fit hoodie with more room on the chest & shoulders, with a more tapered hem. It is made from a mid-weight 420 GSM unbrushed French Terry material that makes for a durable yet comfortable piece- ideal for transitional layering. Inspired by vintage gym wear, it features a ribbed hem, cuffs and a drawstring hood.
         </p>
       </div>
-      <h5 className="product-details__category">Category: Men's Clothing</h5>
-      <div className="product-details__rating">
-        <span className="product-details__rate">Rate: 3.9</span>
-        <span className="product-details__count">Count: 120</span>
-      </div>
+      <h5 className="product-details__category">Category: <span>Men's Clothing</span></h5>
+      <span className="product-details__rate">Rate: <span>3.9</span></span>
+      <br></br>
+      <span className="product-details__count">Count: <span>120</span></span>
     </div>
   </div>
 );
